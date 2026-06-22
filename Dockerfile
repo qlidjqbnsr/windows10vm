@@ -42,7 +42,7 @@ else\n\
   echo "⚠️  KVM not available - using slower emulation mode"\n\
   KVM_ARG=""\n\
   CPU_ARG="qemu64"\n\
-  MEMORY="2G"\n\
+  MEMORY="16G"\n\
   SMP_CORES=1\n\
 fi\n\
 \n\
